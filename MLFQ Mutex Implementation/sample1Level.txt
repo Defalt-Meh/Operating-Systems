@@ -1,0 +1,36 @@
+Thread with program ID 0 and thread ID 140323949987392 acquired lock
+Adding thread with ID: 140323941594688 to level 0
+Adding thread with ID: 140323924809280 to level 0
+Thread with program ID 0 and thread ID 140323949987392 releasing lock
+Adding thread with ID: 140323949987392 to level 0
+Thread with program ID 1 and thread ID 140323941594688 acquired lock
+Adding thread with ID: 140323933201984 to level 0
+Thread with program ID 1 and thread ID 140323941594688 releasing lock
+Adding thread with ID: 140323941594688 to level 0
+Thread with program ID 3 and thread ID 140323924809280 acquired lock
+Thread with program ID 3 and thread ID 140323924809280 releasing lock
+Adding thread with ID: 140323924809280 to level 0
+Thread with program ID 0 and thread ID 140323949987392 acquired lock
+Thread with program ID 0 and thread ID 140323949987392 releasing lock
+Adding thread with ID: 140323949987392 to level 0
+Thread with program ID 2 and thread ID 140323933201984 acquired lock
+Thread with program ID 2 and thread ID 140323933201984 releasing lock
+Adding thread with ID: 140323933201984 to level 0
+Thread with program ID 1 and thread ID 140323941594688 acquired lock
+Thread with program ID 1 and thread ID 140323941594688 releasing lock
+Adding thread with ID: 140323941594688 to level 0
+Thread with program ID 3 and thread ID 140323924809280 acquired lock
+Thread with program ID 3 and thread ID 140323924809280 releasing lock
+Adding thread with ID: 140323924809280 to level 0
+Thread with program ID 0 and thread ID 140323949987392 acquired lock
+Thread with program ID 0 and thread ID 140323949987392 releasing lock
+Thread with program ID 2 and thread ID 140323933201984 acquired lock
+Thread with program ID 2 and thread ID 140323933201984 releasing lock
+Adding thread with ID: 140323933201984 to level 0
+Thread with program ID 1 and thread ID 140323941594688 acquired lock
+Thread with program ID 1 and thread ID 140323941594688 releasing lock
+Thread with program ID 3 and thread ID 140323924809280 acquired lock
+Thread with program ID 3 and thread ID 140323924809280 releasing lock
+Thread with program ID 2 and thread ID 140323933201984 acquired lock
+Thread with program ID 2 and thread ID 140323933201984 releasing lock
+Threads terminated. Total duration is: 0.0110391 seconds.
