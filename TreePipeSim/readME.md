@@ -9,11 +9,13 @@
  processes for further analysis, as commanded by the Emperor.
 
  “We march for Macragge!”
+ 
 #==============================================================================
 
 #------------------------------------------------------------------------------
 # Overview
 #------------------------------------------------------------------------------
+
  treePipe is a C program that:
   1) Creates a tree of processes, each representing a node in the grand army.
   2) Uses pipes for inter-process communication (parent <-> child).
@@ -29,6 +31,7 @@
 #------------------------------------------------------------------------------
 # Requirements
 #------------------------------------------------------------------------------
+
  - A Linux/Unix environment (because of fork, pipe, execvp, and wait).
  - A C compiler (e.g. gcc).
  - The "left" and "right" worker programs (binaries) to be placed in the same
@@ -39,6 +42,7 @@
 #------------------------------------------------------------------------------
 # Compilation
 #------------------------------------------------------------------------------
+
  1) Save the main file as treePipe.c (or use whatever name you desire).
  2) Compile with:
 
@@ -54,6 +58,7 @@
 #------------------------------------------------------------------------------
 # Usage
 #------------------------------------------------------------------------------
+
     ./treePipe <current depth> <max depth> <left-right>
 
  Example:
@@ -71,6 +76,7 @@
 #------------------------------------------------------------------------------
 # Explanation of Arguments
 #------------------------------------------------------------------------------
+
  1) current depth:
     - The “level” of this node in the grand hierarchy (0 is the root).
     - Must be non-negative. For the root, use 0.
@@ -91,6 +97,7 @@
 #------------------------------------------------------------------------------
 # Workflow (Brief)
 #------------------------------------------------------------------------------
+
  1) The root node (current depth = 0) asks the user for an integer (num1).
  2) It may fork a child subtree (left flank) if current_depth < max_depth.
     - That subtree receives num1 as input.
@@ -116,6 +123,7 @@
 #------------------------------------------------------------------------------
 # Additional Notes
 #------------------------------------------------------------------------------
+
  - The program uses multiple pipes for each fork:
      1) A pipe to send data from the parent to the child.
      2) A pipe to read results back from the child.
@@ -127,6 +135,7 @@
 #------------------------------------------------------------------------------
 # Contribute
 #------------------------------------------------------------------------------
+
  If you want to modify or extend this code:
   - Add your own custom worker programs (e.g., left.c or right.c) that read two
     integers from stdin and write a single integer result to stdout.
@@ -137,6 +146,7 @@
 #------------------------------------------------------------------------------
 # For the Emperor!
 #------------------------------------------------------------------------------
+
  That’s it. May your forking and piping be ever in the Emperor’s favor.
 
  In the grim darkness of the far future, there is only pipe-based IPC…
