@@ -1,4 +1,4 @@
-izerburak@DESKTOP$ ./treePipe 0 0 0
+user@DESKTOP$ ./treePipe 0 0 0
 > current depth: 0, lr: 0
 Please enter num1 for the root: 10
 > my num1 is: 10
