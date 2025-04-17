@@ -2,7 +2,7 @@
 
 # CS307: Operating Systems – The  Chronicles 
 
-Welcome, noble traveler, to the grand chronicle of CS307: Operating Systems, from Sabancı University. Within these digital tomes, you will find the relics of our academic battles—programming assignments and detailed reports—each forged in the venerable language of C. Much like the ancient heroes of the Warhammer Fantasy world, we embark on quests to tame the chaotic realms of processes, memory, and more.
+Welcome, noble traveler, to the grand chronicle of CS307: Operating Systems, from Sabancı University. Within these digital tomes, you will find the relics of our academic battles—programming assignments and detailed reports—each forged in the venerable language of C. Much like the ancient heroes loyal to our Emperor, we embark on quests to tame the chaotic realms of processes, memory, and more. Cadia stands!
 
 ## The Quest for Knowledge
 
