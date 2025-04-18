@@ -36,7 +36,7 @@
  - A C compiler (e.g. gcc).
  - The "left" and "right" worker programs (binaries) to be placed in the same
    directory if you wish to have the full ritual calculations for left and right.
-   These should be compiled separately from their respective .c files (not
+   These should be compiled separately from their respective .c files (
    provided in this sample, but you can create your own to experiment).
 
 #------------------------------------------------------------------------------
