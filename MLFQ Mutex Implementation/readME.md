@@ -1,4 +1,4 @@
-Multi‑Level Feedback Queue (MLFQ) Mutex Assignment
+# Multi‑Level Feedback Queue (MLFQ) Mutex Assignment
 
 This document describes the design and implementation of an MLFQ‑based mutex for a concurrent programming assignment. You can paste this directly into your GitHub repository as README.md or any other .md file.
 
