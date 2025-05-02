@@ -42,7 +42,8 @@ The design draws upon classic concurrency stratagems (counting semaphore, barrie
 ```bash
 # 1) Clone your repository
 git clone https://github.com/
-cd courtSync
+cd Synchronization Slam Dunk: Implementing a Basketball Court with Semaphores
+
 
 # 2) Build the demonstration tester
 g++ -std=c++20 -pthread tester.cpp -o courtsim
